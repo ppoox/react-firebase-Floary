@@ -19,12 +19,15 @@ google에서 제공하는 UI로 react와 잘 어울린다
 ### Firebase
 
 firebase와 연결하여 firebase에서 제공하는 Authentication을 이용하여 로그인한다.
+
 일반 데이터는 firestore에 저장되고 파일의 경우 firebasse storage에 저장된다.
+
 또한 firebase에서 제공하는 hosting 기능을 통하여 build 및 배포를 하고 있다.
          
 ### API
 
 (1) 주소를 입력받기 위해 카카오 주소 API를 사용하고 있다.
+
 (2) 입력받은 주소를 지도에 나타내기 위해 카카오 지도 API를 사용하고 있다.
 
 
