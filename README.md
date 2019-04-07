@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React_Firebase_Floary
 
-## Available Scripts
+### Floary
 
-In the project directory, you can run:
+React와 Firebae를 이용하여 삶의 흐름을 이미지로 담아나가는 사진 다이어리
 
-### `npm start`
+### React
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+router를 이용한 페이지 이동, redux를 이용한 state 상태 관리, ducks방식의 reducer
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+필요한 설치 : react-router-dom, react-redux, redux-logger, redux-thunk
 
-### `npm test`
+### Material-UI
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+google에서 제공하는 UI로 react와 잘 어울린다
 
-### `npm run build`
+필요한 설치 : @material-ui/core, @material-ui/icons
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Firebase
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+firebase와 연결하여 firebase에서 제공하는 Authentication을 이용하여 로그인한다.
+일반 데이터는 firestore에 저장되고 파일의 경우 firebasse storage에 저장된다.
+또한 firebase에서 제공하는 hosting 기능을 통하여 build 및 배포를 하고 있다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### API
 
-### `npm run eject`
+(1) 주소를 입력받기 위해 카카오 주소 API를 사용하고 있다.
+(2) 입력받은 주소를 지도에 나타내기 위해 카카오 지도 API를 사용하고 있다.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 현재 구현되어 있는 기능
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+회원가입/로그인, 사진첩 등록/삭제, 주소API, 이미지 파일 업로드, 좋아요, 지도API, 회원정보 조회
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### 구현 해야할 기능
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+회원가입 폼 추가, 사진첩 수정, 회원정보 프로필 이미지, 반응형 디테일, 더미 컴포넌트와 기능 컴포넌트 분리
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+edit. v001 2019-04-07
