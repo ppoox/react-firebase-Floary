@@ -42,6 +42,7 @@ firebase와 연결하여 firebase에서 제공하는 Authentication을 이용하
 
 
 
+### Firebase Hosting URL
 https://react-redux-firebase-55b61.firebaseapp.com
 
 
