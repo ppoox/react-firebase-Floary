@@ -1,5 +1,14 @@
 ## React_Firebase_Floary
 
+
+
+![main](https://user-images.githubusercontent.com/28284285/74687006-8574bd80-5216-11ea-96e3-636d9c29d231.PNG)
+![login](https://user-images.githubusercontent.com/28284285/74687013-89084480-5216-11ea-965e-2c3b0f7770d1.PNG)
+![home](https://user-images.githubusercontent.com/28284285/74687016-8b6a9e80-5216-11ea-9b63-c335a864fbd6.PNG)
+![insert](https://user-images.githubusercontent.com/28284285/74687019-8e658f00-5216-11ea-92fa-8404af0d4944.PNG)
+
+
+
 ### Floary
 
 React와 Firebae를 이용하여 삶의 흐름을 이미지로 담아나가는 사진 다이어리      
